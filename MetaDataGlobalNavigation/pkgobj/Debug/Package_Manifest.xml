@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="054692ae-4ef3-49a8-b559-ebdd364e73c5" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="MetaDataGlobalNavigation.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\KSFGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\PortalGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\SearchGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx" />
+    <TemplateFile Location="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx" />
+  </TemplateFiles>
+</Solution>

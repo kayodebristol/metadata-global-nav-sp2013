@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B339784E-BF94-49AD-B490-ABE2C5BDB1BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetaDataGlobalNavigation</RootNamespace>
+    <AssemblyName>MetaDataGlobalNavigation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Taxonomy">
+      <HintPath>..\..\..\..\..\..\kayode.o.bristol\Downloads\15\ISAPI\Microsoft.SharePoint.Taxonomy.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint">
+      <HintPath>..\..\..\..\..\..\kayode.o.bristol\Downloads\15\ISAPI\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx.cs">
+      <DependentUpon>25thSIGBNGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx.designer.cs">
+      <DependentUpon>25thSIGBNGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx.cs">
+      <DependentUpon>CSTCAGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx.designer.cs">
+      <DependentUpon>CSTCAGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx.cs">
+      <DependentUpon>JNCCAGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx.designer.cs">
+      <DependentUpon>JNCCAGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx.cs">
+      <DependentUpon>KSFGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx.designer.cs">
+      <DependentUpon>KSFGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\PortalGlobalNav.ascx.cs">
+      <DependentUpon>PortalGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\PortalGlobalNav.ascx.designer.cs">
+      <DependentUpon>PortalGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\SearchGlobalNav.ascx.cs">
+      <DependentUpon>SearchGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\SearchGlobalNav.ascx.designer.cs">
+      <DependentUpon>SearchGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx.cs">
+      <DependentUpon>TAACAirGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx.designer.cs">
+      <DependentUpon>TAACAirGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx.cs">
+      <DependentUpon>TAACEGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx.designer.cs">
+      <DependentUpon>TAACEGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx.cs">
+      <DependentUpon>TAACNGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx.designer.cs">
+      <DependentUpon>TAACNGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx.cs">
+      <DependentUpon>TAACSGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx.designer.cs">
+      <DependentUpon>TAACSGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx.cs">
+      <DependentUpon>USFORAGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx.designer.cs">
+      <DependentUpon>USFORAGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx.cs">
+      <DependentUpon>RecordsGlobalNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx.designer.cs">
+      <DependentUpon>RecordsGlobalNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a1722dba-d57f-4ce0-8e08-47eef230e91b}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{054692ae-4ef3-49a8-b559-ebdd364e73c5}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\PortalGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\SearchGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx" />
+    <Content Include="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

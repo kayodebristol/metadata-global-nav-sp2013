@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="054692ae-4ef3-49a8-b559-ebdd364e73c5" solutionId="054692ae-4ef3-49a8-b559-ebdd364e73c5" resetWebServer="false" sharePointProductVersion="15.0" name="MetaDataGlobalNavigation" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="a1722dba-d57f-4ce0-8e08-47eef230e91b" />
+  </projectItems>
+</package>
