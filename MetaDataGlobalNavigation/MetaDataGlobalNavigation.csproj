@@ -60,34 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx.cs">
-      <DependentUpon>25thSIGBNGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx.designer.cs">
-      <DependentUpon>25thSIGBNGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx.cs">
-      <DependentUpon>CSTCAGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx.designer.cs">
-      <DependentUpon>CSTCAGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx.cs">
-      <DependentUpon>JNCCAGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx.designer.cs">
-      <DependentUpon>JNCCAGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx.cs">
-      <DependentUpon>KSFGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx.designer.cs">
-      <DependentUpon>KSFGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
     <Compile Include="ControlTemplates\GlobalNav\PortalGlobalNav.ascx.cs">
       <DependentUpon>PortalGlobalNav.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -101,41 +73,6 @@
     </Compile>
     <Compile Include="ControlTemplates\GlobalNav\SearchGlobalNav.ascx.designer.cs">
       <DependentUpon>SearchGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx.cs">
-      <DependentUpon>TAACAirGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx.designer.cs">
-      <DependentUpon>TAACAirGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx.cs">
-      <DependentUpon>TAACEGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx.designer.cs">
-      <DependentUpon>TAACEGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx.cs">
-      <DependentUpon>TAACNGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx.designer.cs">
-      <DependentUpon>TAACNGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx.cs">
-      <DependentUpon>TAACSGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx.designer.cs">
-      <DependentUpon>TAACSGlobalNav.ascx.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx.cs">
-      <DependentUpon>USFORAGlobalNav.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx.designer.cs">
-      <DependentUpon>USFORAGlobalNav.ascx.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx.cs">
       <DependentUpon>RecordsGlobalNav.ascx</DependentUpon>
@@ -162,17 +99,8 @@
     <Folder Include="Features\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ControlTemplates\GlobalNav\25thSIGBNGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\CSTCAGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\JNCCAGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\KSFGlobalNav.ascx" />
     <Content Include="ControlTemplates\GlobalNav\PortalGlobalNav.ascx" />
     <Content Include="ControlTemplates\GlobalNav\SearchGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\TAACAirGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\TAACEGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\TAACNGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\TAACSGlobalNav.ascx" />
-    <Content Include="ControlTemplates\GlobalNav\USFORAGlobalNav.ascx" />
     <Content Include="ControlTemplates\GlobalNav\RecordsGlobalNav.ascx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
