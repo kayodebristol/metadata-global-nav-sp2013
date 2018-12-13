@@ -10,8 +10,8 @@ Build and deploy solution
 In the example, below, we will deploy one of the three controls included in this solution.
 Note that each navigaition control is hard coded to look for a specific term group name: 
 
-| Control Name     | Term Group | Term Set |
-|__________________|____________|__________|
+| Control Name | Term Group | Term Set |
+|---|---|---|
 | PortalGlobalNav  | Portal     | GlobalNav|
 | SearchGlobalNav  | Search     | GlobalNav|
 | RecordsGlobalNav | Records    | GlobalNav|
