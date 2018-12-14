@@ -152,7 +152,7 @@ Customize navigation Css (either edit an exiting css file or ref a new link from
 ### Prerequisites
 
 It's very helpful if you have access to SharePoint 2013, since this is a 15 hive solution.
-Although the generated project will work with SharePoint 2016 and SharePoint Online, it is not optimized for SharePoint 2016 or Online. 
+Although the generated project will work with SharePoint 2016, it is not optimized for SharePoint 2016.
 
 
 ## Authors
