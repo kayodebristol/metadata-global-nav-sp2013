@@ -4,9 +4,17 @@ SharePoint Managed Metadata Global Navigation Control
 ## Getting Started
 
 Build and deploy solution 
+
+Change directoy to your projects folder, then git clone this project. 
 ````
-[placeholer]
+cd c:\projects
+git clone https://github.com/kayodebristol/metadata-global-nav-sp2013.git
 ````
+Setting up a SharePoint Dev environment is not in scope of this document.
+Open the solution in Visual Studio and build the solution. 
+
+[delpoy placeholder]
+
 In the example, below, we will deploy one of the three controls included in this solution.
 Note that each navigaition control is hard coded to look for a specific term group name: 
 
